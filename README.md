@@ -96,7 +96,7 @@ cat3_prophage
 For the `phage_name` column, the first phage predicted by VirSorter is named "phage_1" and increments by 1 up to "phage_n". Similarly, the first prophage predicted by VirSorter is named "prophage_1" and incrememts by 1 up to "prophage_n".
 
 ## Running the parser
-To run the parser you just need the python script `virsorter_to_anvio.py`. Arguments are described at the command-line when passing the `-h` flag. Briefly, the script takes as input the two output files from VirSorter (VIRSorter_affi-contigs.tab and VIRSorter_global_signal.csv) and the splits_basic_info.txt file from Anvi'o. These are required inputs.  
+To run the parser you just need the python script `virsorter_to_anvio.py`. Arguments are described at the command-line when passing the `-h` flag. Briefly, the script takes as input the two output files from VirSorter (VIRSorter_affi-contigs.tab and VIRSorter_global_signal.csv) and the splits_basic_info.txt file from Anvi'o. These are required inputs.  If you want to test out the parser, samples of each of the required files are provided in the "sample_files" directory of this repository.  
 
 You can control which VirSorter predictions are prepared for importing into Anvi'o. The `--exclude-cat3` flag will skip over all "category 3" predictions. The `--exclude-prophages` flag will skip over all prophages. the `-l` flag can be used to specify the minimum phage length to report in the output files. For example, `-l 5000` means that all phage predictions shorter than 5000 bp will be not reported in the output files. These flags can be used in any combination with each other.
 
