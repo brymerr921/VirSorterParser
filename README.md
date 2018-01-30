@@ -1,33 +1,44 @@
 # VirSorterParser
 Display VirSorter annotations in Anvi'o
 
-Metagenome studies are a great way to explore complex communities. Many algorithsms and tools have made it possible to reconstruct bacterial, archaeal, and even eukaryotic genome bins for diverse organisms from assembled metagenome sequencing data. However, these algorithms are not well equipped to deal with the most abundant biological entity on earth -- bacteriophages. There are several tools designed to predict viral contigs from metagenome assemblies, and prophages from bacterial genomes.  This tutorial will walk you through the steps needed to (1) use VirSorter to predict which contigs in your assembly are phages, and (2) visualize these results in Anvi'o using anvi-interactive and anvi-refine. The only thing better than binning with Anvi'o is _phage-aware_ binning with Anvi'o. Here we go!
+Metagenome studies are a great way to explore complex communities. Many algorithsms and tools have made it possible to reconstruct bacterial, archaeal, and even eukaryotic genome bins for diverse organisms from assembled metagenome sequencing data. However, these algorithms are not well equipped to deal with the most abundant biological entity on earth -- bacteriophages. There are several tools designed to predict viral contigs from metagenome assemblies, and prophages from bacterial genomes.  
+
+This tutorial will walk you through the steps needed to (1) use VirSorter to predict which contigs in your assembly are phages, and (2) visualize these results in Anvi'o using anvi-interactive and anvi-refine. The only thing better than binning with Anvi'o is _phage-aware_ binning with Anvi'o. Here we go!
 
 ## How VirSorter works
-Virsorter was published in Roux et al (2015) - https://peerj.com/articles/985/. Figure 1 explains the pipeline well. Briefly:
+Virsorter was published in Roux et al (2015) - https://peerj.com/articles/985/. The source code is housed at https://github.com/simroux/VirSorter. Figure 1 (Roux et al, 2015) explains the VirSorter pipeline well. Briefly:
 - The VirSorter input is a single FASTA file. In our case this will be the same metagenome assembly you used to make your Anvi'o contigs database.
 - VirSorter annotates the FASTA file using MetaGeneAnnotator, and then uses hmmsearch to predict (1) PFAM domains and (2) viral domains using pre-computed, downloadable HMM databases on the annotated genes.
 - For each contig, VirSorter uses a sliding window analysis to identify regions of several genes that: (1) contain one or more viral "hallmark" genes (capsid, large terminase, etc.), (2) are enriched for viral domains, (3) have few PFAM domains, (4) have many uncharacterized genes, (5) have many short genes, and (6) have many genes encoded sequentially on the same strand. Overlapping gene regions predicted by each criterion are combined. Depending on which criteria are met, the contig is assigned a category number, where 1 is high confidence that it the contig is a phage, and 3 is possible, but low confidence.
 - If a category 1, 2, or 3 prediction on a conting encompasses > 80% of the contig, the whole contig is annotated as being a "phage". If a category 1, 2, or 3 prediction on a contig encompasses <= 80% of the contig, then a subset of the contig is annotated as being a "prophage". For metagenome assemblies, note that a contig annotated as being a "phage" could actually be part of a prophage but isn't called as such simply becasue more than 80% of the genes are "phage-like".
 
-## Using VirSorter
-You can run VirSorter on CyVerse after signing up for an account here - http://user.cyverse.org/. You'll need to make an account anyways in order to download the 3.7 GB "virsorter-data" archive.
+## Getting VirSorter
+You can run VirSorter on CyVerse after signing up for an account here - http://user.cyverse.org/. You can also run VirSorter using Docker. Further, you can install VirSorter locally. Either way, you'll need to make a CyVerse account in order to run VirSorter there or wnload the 3.7 GB "virsorter-data.tar.gz" archive which VirSorter requires.  
+
 The virsorter-data archive contains:
 1. PFAM-A and PFAM-B HMM models
 2. Two HMM databases computed from (1) all phages in RefSeq prior to 2014, and (2) those same phages plus curated phages from several viromes.
 3. Other files needed to run VirSorter
 
+The HMM models in `virsorter-data.tar.gz` are built for HMMER version 3.0. At this point, you have two options:
+Option A: Install HMMER 3.0 instead of the latest version. If you're using a virtual environment (see below), omit "hmmer" from the `conda create` command and install HMMER 3.0 manually (http://hmmer.org/download.html).  
+Option B: Install hmmer as part of the `conda create` command (see below). Once you download (from CyVerse) and extract `virsorter-data.tar.gz`, you'll need to change to the `virsorter-data` directory (containing the folders PFAM, Phage_gene_catalog, and Phage_gene_catalog_plus_viromes). Next, activate your virsorter virtual environment (or make sure the version of hmmer that VirSorter will be using is in your `PATH`) and run the following commands:
+```
+for i in */*.hmm; do echo "Converting ${i}..."; hmmconvert ${i} > ${i}.new; mv ${i}.new ${i}; hmmpress -f ${i}; done
+```
+
 To install VirSorter locally, do the following. I have only tested it on Linux (Ubuntu and CentOS).
-  - I prefer to install the VirSorter dependencies using a conda environment. If you have Anaconda or Miniconda installed, do the following steps from the directory where you wish to install VirSorter:
-  - perl-parallel-forkmanager and diamond=0.9.14 are also required for a version of VirSorter I've forked and edited but haven't made available yet
+- I prefer to install the VirSorter dependencies using a conda environment. If you have Anaconda or Miniconda installed, do the following steps from the directory where you wish to install VirSorter:
+
   
 ```
-conda create --name virsorter -c bioconda mcl=14.137 muscle blast hmmer perl-bioperl perl-file-which
+conda create --name virsorter -c bioconda mcl=14.137 muscle blast perl-bioperl perl-file-which hmmer
 git clone https://github.com/simroux/VirSorter.git
 cd VirSorter
 git checkout bd7a4b7d7d28691bed44caa6d8f07093c882293f
 ```
-  - To run VirSorter from any directory, you can make symbolic links to VirSorter/wrapper_phage_contigs_sorter_iPlant.pl and VirSorter/Scripts and place them in the "bin" folder for your "virsorter" conda environment.
+  - perl-parallel-forkmanager and diamond=0.9.14 are also required at the end of the `conda create` command for a version of VirSorter I've forked and edited but haven't made available yet
+  - To run VirSorter from any directory, you can make symbolic links to VirSorter/wrapper_phage_contigs_sorter_iPlant.pl and VirSorter/Scripts and place them in the "bin" folder for your "virsorter" conda environment. An example location of this "bin" folder is `~/miniconda/envs/virsorter/bin`. Substitute this path with the path to the bin folder for your newly created virsorter environment
 ```
 ln -s ~/Applications/VirSorter/wrapper_phage_contigs_sorter_iPlant.pl ~/miniconda/envs/virsorter/bin
 ln -s ~/Applications/VirSorter/Scripts ~/miniconda/envs/virsorter/bin
@@ -39,15 +50,19 @@ wget http://metagene.nig.ac.jp/metagene/mga_x86_64.tar.gz
 tar -xvzf metagene/mga_x86_64.tar.gz
 ```
 
-After you download the "virsorter-data" archive from CyVerse, you'll need to edit the wrapper script to point to the virsorter-data directory on your computer. On line 46 of `wrapper_phage_contigs_sorter_iPlant.pl`, you'll need to change `'/data';` to the path to the virsorter-data archive you've downloaded and extracted, e.g. `'/path/to/virsorter-data'`.
+After you download the "virsorter-data.tar.gz" archive from CyVerse, you'll need to edit the wrapper script to point to the virsorter-data directory on your computer. On line 46 of `wrapper_phage_contigs_sorter_iPlant.pl`, you'll need to change `'/data';` to the path to the virsorter-data archive you've downloaded and extracted, e.g. `'/path/to/virsorter-data'`.
 
 ## Running VirSorter
-Once you have the conda environment created, VirSorter downloaded, and the symbolic links created, running VirSorter is as easy as:
+Of course, you can always run VirSorter on CyVerse, or using Docker. If you've managed it install it yourself, you can run it that way too. If you installed it yourself, once you have the conda environment created, VirSorter downloaded, and the symbolic links made, running VirSorter is as easy as:
 ```
 source activate virsorter
 wrapper_phage_contigs_sorter_iPlant.pl -f assembly.fasta --db 1 --wdir output_directory --ncpu 4
 ```
-It is _critical_ that VirSorter is run on the _exact same assembly FASTA file_ that was used to generate the Anvi'o contigs database, map and profile reads, etc.
+It is _critical_ that VirSorter is run on the _exact same assembly FASTA file_ that was used to generate the Anvi'o contigs database, map and profile reads, etc. This point can't be overstated!
+
+The --db argument can either be 1 or 2.  
+If set to 1, then VirSorter will use phage HMMs computed from RefSeq phages published before January 2014.
+If set to 2, then Virsorter will use HMMs pre-2014 phages (option 1) plus HMMs from phage contigs identified in curated virome datasets.
 
 ## VirSorter outputs
 VirSorter writes several outputs to a working directory that you specify when run VirSorter. The files we need for importing VirSorter annotations into Anvi'o include:
@@ -81,3 +96,17 @@ cat3_prophage
 For the `phage_name` column, the first phage predicted by VirSorter is named "phage_1" and increments by 1 up to "phage_n". Similarly, the first prophage predicted by VirSorter is named "prophage_1" and incrememts by 1 up to "prophage_n".
 
 ## Running the parser
+To run the parser you just need the python script `virsorter_to_anvio.py`. Arguments are described at the command-line when passing the `-h` flag. Briefly, the script takes as input the two output files from VirSorter (VIRSorter_affi-contigs.tab and VIRSorter_global_signal.csv) and the splits_basic_info.txt file from Anvi'o. These are required inputs.  
+
+You can control which VirSorter predictions are prepared for importing into Anvi'o. The `--exclude-cat3` flag will skip over all "category 3" predictions. The `--exclude-prophages` flag will skip over all prophages. the `-l` flag can be used to specify the minimum phage length to report in the output files. For example, `-l 5000` means that all phage predictions shorter than 5000 bp will be not reported in the output files. These flags can be used in any combination with each other.
+
+## Output files
+The parser, by default, generates two output files. The first is "virsorter_additional_info.txt" which can be imported as additional data into Anvi'o. For version 3, you use this file when running `anvi-interactive` or `anvi-refine` by using the flag `-A virsorter_additional_info.txt`. For higher versions, you run the following command. (see http://merenlab.org/2017/12/11/additional-data-tables/).
+`anvi-import-misc-data virsorter_additional_info.txt -p profile.db --target-data-table items`  
+
+The second output file is "virsorter_collection.txt". This file can be imported into Anvi'o using `anvi-import-collection` and specifying "virsorter_collection.txt" as the tab-delimited file to import and will generate a collection where each phage prediction will become a bin containing all of the splits for that phage.
+
+## Happy binning!
+Congratulations, you can now enjoy an even better "phage-aware" binning experience in Anvi'o!
+
+If you have any questions or problems, please don't hesitate to contact Bryan or submit an issue on GitHub.
