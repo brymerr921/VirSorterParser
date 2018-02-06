@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description="Parses VirSorter predictions for A
 parser.add_argument("-a","--affi-file", help = "VIRSorter_affi-contigs.tab file. REQUIRED.")
 parser.add_argument("-g","--global-file", help="VIRSorter_global_signal.csv file. REQUIRED.")
 parser.add_argument("-s","--splits-info", help = "splits_basic_info.txt file. REQUIRED.")
-parser.add_argument("-l","--min-phage-length", type = int, default = 1000, help = "Specify the minimum phage length to report. Default is 1000 bp.")
+parser.add_argument("-L","--min-phage-length", type = int, default = 1000, help = "Specify the minimum phage length to report. Default is 1000 bp.")
 parser.add_argument("--exclude-cat3", action = "store_true", help = "Excludes all category 3 predictions from both output files.")
 parser.add_argument("--exclude-prophages", action = "store_true", help = "Exclude all prophage predictions.")
 parser.add_argument("-A","--addl-info", default = "virsorter_additional_info.txt", help = "Additional info output file. The default file name is \"virsorter_additional_info.txt\". You can import this as an additional data file for splits. This can be helpful while binning using anvi-interactive or anvi-refine to identify contigs that are phages.")
