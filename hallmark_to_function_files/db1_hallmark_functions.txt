@@ -1,0 +1,826 @@
+Phage_cluster_7	gp18 tail sheath protein
+Phage_cluster_8	terminase subunit for DNA packaging, nuclease and ATPase
+Phage_cluster_15	portal vertex protein of the head
+Phage_cluster_19	gp23 major capsid protein
+Phage_cluster_23	putative large subunit terminase
+Phage_cluster_28	tail tube monomer
+Phage_cluster_34	large terminase subunit protein
+Phage_cluster_41	T7-like tail tubular protein B
+Phage_cluster_58	phage terminase, large subunit, PBSX family
+Phage_cluster_62	putative portal protein
+Phage_cluster_77	putative portal protein
+Phage_cluster_83	putative terminase
+Phage_cluster_90	phage capsid vertex
+Phage_cluster_99	phage terminase large subunit GpA putative structural protein
+Phage_cluster_108	putative major tail protein
+Phage_cluster_115	tail tube protein A
+Phage_cluster_155	major capsid protein 10A
+Phage_cluster_154	portal protein
+Phage_cluster_161	probable terminase
+Phage_cluster_176	phage capsid and scaffold protein
+Phage_cluster_204	baseplate tail tube cap
+Phage_cluster_211	putative portal protein
+Phage_cluster_236	putative major tail protein
+Phage_cluster_246	putative TerL large-subunit terminase
+Phage_cluster_273	tail sheath protein
+Phage_cluster_282	capsid protein
+Phage_cluster_267	putative TerL large-subunit terminase
+Phage_cluster_275	putative capsid protein
+Phage_cluster_268	putative portal protein
+Phage_cluster_274	capsid protein
+Phage_cluster_306	putative capsid protein
+Phage_cluster_316	putative terminase
+Phage_cluster_324	putative major capsid protein
+Phage_cluster_335	similar to phage phig1e RORF204 (minor capsid protein)
+Phage_cluster_361	gp27, phage tail protein, P2 GpE family
+Phage_cluster_381	gp6, major capsid protein
+Phage_cluster_374	capsid protein
+Phage_cluster_398	truncated terminase ATPase subunit
+Phage_cluster_420	predicted phage tail tubular protein A
+Phage_cluster_419	putative portal protein
+Phage_cluster_431	large terminase
+Phage_cluster_440	gp3, phage capsid scaffolding protein (GPO)
+Phage_cluster_435	putative portal protein
+Phage_cluster_450	baseplate hub subunit
+Phage_cluster_439	capsid portal protein Q
+Phage_cluster_441	gp2, phage major capsid protein, P2 family
+Phage_cluster_471	tail sheath protein
+Phage_cluster_458	terminase
+Phage_cluster_483	terminase
+Phage_cluster_530	putative capsid protein
+Phage_cluster_531	phage tail protein X
+Phage_cluster_527	major tail subunit
+Phage_cluster_536	putative portal protein
+Phage_cluster_539	putative major tail protein
+Phage_cluster_577	putative portal protein
+Phage_cluster_575	phage tail protein
+Phage_cluster_592	putative terminase
+Phage_cluster_602	tail protein
+Phage_cluster_597	tail tube protein
+Phage_cluster_600	baseplate tail tube cap
+Phage_cluster_598	P2 gpU-like tail protein
+Phage_cluster_570	large terminase subunit
+Phage_cluster_663	virion structural protein
+Phage_cluster_612	putative major capsid protein
+Phage_cluster_619	portal protein
+Phage_cluster_637	portal
+Phage_cluster_609	putative terminase
+Phage_cluster_638	major capsid subunit
+Phage_cluster_639	major tail subunit
+Phage_cluster_648	putative major tail protein
+Phage_cluster_679	terminase
+Phage_cluster_675	putative lambda family portal protein B
+Phage_cluster_712	terminase DNA packaging enzyme large subunit
+Phage_cluster_668	putative tail protein
+Phage_cluster_681	phage major tail subunit
+Phage_cluster_678	putative large subunit terminase
+Phage_cluster_684	major capsid protein
+Phage_cluster_744	putative portal protein
+Phage_cluster_734	N4-gp56 family major capsid protein
+Phage_cluster_735	putative portal protein
+Phage_cluster_816	putative portal protein
+Phage_cluster_803	major capsid S
+Phage_cluster_806	terminase subunit A
+Phage_cluster_821	putative capsid protein
+Phage_cluster_813	putative capsid protein
+Phage_cluster_888	N4 gp50-like protein
+Phage_cluster_901	putative capsid protein
+Phage_cluster_899	putative major capsid protein
+Phage_cluster_897	terminase, large subunit
+Phage_cluster_885	putative portal protein
+Phage_cluster_907	main capsid protein
+Phage_cluster_911	major tail protein 1
+Phage_cluster_902	virion protein
+Phage_cluster_971	putative portal protein
+Phage_cluster_996	putative minor capsid protein 1
+Phage_cluster_1012	capsid protein
+Phage_cluster_1093	potenial virion protein
+Phage_cluster_976	putative portal protein
+Phage_cluster_1010	portal protein
+Phage_cluster_970	terminase
+Phage_cluster_1131	capsid protein
+Phage_cluster_1126	capsid protein
+Phage_cluster_1107	putative terminase large subunit
+Phage_cluster_1124	putative large terminase
+Phage_cluster_1114	putative major tail protein
+Phage_cluster_1161	putative tail tubular protein B
+Phage_cluster_1127	terminase
+Phage_cluster_1125	portal protein
+Phage_cluster_1163	major capsid protein
+Phage_cluster_1229	phage major tail protein
+Phage_cluster_1234	putative major tail protein
+Phage_cluster_1206	putative capsid protein
+Phage_cluster_1205	putative portal protein
+Phage_cluster_1235	putative tail protein
+Phage_cluster_1269	putative portal protein
+Phage_cluster_1228	putative major tail protein
+Phage_cluster_1243	putative accessory fiber
+Phage_cluster_1220	large terminase subunit
+Phage_cluster_1331	hypothetical phage capsid protein
+Phage_cluster_1349	putative major capsid protein
+Phage_cluster_1319	predicted phage capsid scaffolding protein
+Phage_cluster_1353	putative major tail protein
+Phage_cluster_1350	putative major capsid protein
+Phage_cluster_1318	putative portal protein
+Phage_cluster_1301	tail sheath protein
+Phage_cluster_1502	phage terminase large subunit
+Phage_cluster_1541	portal protein
+Phage_cluster_1534	major capsid protein
+Phage_cluster_1547	major tail structural protein
+Phage_cluster_1418	portal HK97 family
+Phage_cluster_1436	putative large subunit of phage terminase
+Phage_cluster_1483	putative RNA ligase/tail attachment protein
+Phage_cluster_1466	putative major tail shaft protein
+Phage_cluster_1481	tail tube protein
+Phage_cluster_1587	terminase
+Phage_cluster_1529	putative portal protein
+Phage_cluster_1567	tail tube protein
+Phage_cluster_1503	tail tube protein
+Phage_cluster_1417	large terminase subunit
+Phage_cluster_1560	major capsid protein
+Phage_cluster_1489	putative phage tail sheath protein
+Phage_cluster_1683	virion structural protein
+Phage_cluster_1658	phage capsid protein
+Phage_cluster_1621	phage major tail protein
+Phage_cluster_1637	major capsid subunit
+Phage_cluster_1696	putative phage tail protein
+Phage_cluster_1615	tail protein
+Phage_cluster_1691	terminase
+Phage_cluster_1768	putative portal protein
+Phage_cluster_1724	putative capsid protein
+Phage_cluster_1638	PblB-like tail protein
+Phage_cluster_1661	putative capsid protein
+Phage_cluster_2189	tail protein
+Phage_cluster_2075	Gp16 type D encapsidation protein from the phi-29-like viruses
+Phage_cluster_1897	putative major capsid protein
+Phage_cluster_1933	capsid protein
+Phage_cluster_1879	capsid protein
+Phage_cluster_2082	portal protein
+Phage_cluster_2028	putative major capsid protein
+Phage_cluster_1878	putative major capsid protein
+Phage_cluster_1876	tail sheath protein
+Phage_cluster_1857	putative large subunit terminase
+Phage_cluster_2050	putative major capsid protein
+Phage_cluster_1883	viral coat protein VP1
+Phage_cluster_2080	tail sheath
+Phage_cluster_2045	major capsid protein
+Phage_cluster_2514	virion structural protein
+Phage_cluster_2313	portal protein
+Phage_cluster_2403	putative tail protein
+Phage_cluster_2257	putative tail protein
+Phage_cluster_2296	DNA packaging enzyme (terminase)
+Phage_cluster_2428	main tail protein
+Phage_cluster_2432	structure protein putative major tail protein
+Phage_cluster_2319	putative terminase large subunit
+Phage_cluster_2422	major tail protein
+Phage_cluster_2404	T7-like tubular tail B family-like protein
+Phage_cluster_2327	major tail protein
+Phage_cluster_2325	putative minor capsid protein 4
+Phage_cluster_2440	putative tail protein
+Phage_cluster_2292	putative structural protein
+Phage_cluster_2316	putative major tail protein
+Phage_cluster_2298	putative structural protein
+Phage_cluster_2237	terminase
+Phage_cluster_2293	tail tubular protein B
+Phage_cluster_2546	putative terminase large subunit
+Phage_cluster_2580	putative tail tubular A protein
+Phage_cluster_2696	putative tail tubular protein A
+Phage_cluster_2612	putative major tail protein
+Phage_cluster_2694	putative phage terminase, large subunit
+Phage_cluster_2713	putative portal protein
+Phage_cluster_2583	putative structural protein
+Phage_cluster_2656	virion structural protein
+Phage_cluster_2827	putative phage tail protein
+Phage_cluster_2526	portal
+Phage_cluster_2805	putative tail protein
+Phage_cluster_2519	putative phage major tail protein
+Phage_cluster_2745	putative portal protein
+Phage_cluster_2773	virion structural protein
+Phage_cluster_2551	terminase, large subunit
+Phage_cluster_2595	putative portal protein
+Phage_cluster_2553	portal protein
+Phage_cluster_2715	putative coat protein
+Phage_cluster_2607	tail protein
+Phage_cluster_2541	putative capsid protein
+Phage_cluster_2959	bacteriophage major capsid protein
+Phage_cluster_3195	phage virion structural protein
+Phage_cluster_2978	capsid protein
+Phage_cluster_2982	putative tail tube protein
+Phage_cluster_2968	putative minor head protein
+Phage_cluster_3197	virion structural protein
+Phage_cluster_3284	phage major capsid protein
+Phage_cluster_2971	tail protein
+Phage_cluster_2981	tail sheath
+Phage_cluster_2875	major capsid protein
+Phage_cluster_2990	putative coat protein
+Phage_cluster_3180	capsid protein
+Phage_cluster_2880	major tail protein
+Phage_cluster_3098	probable terminase
+Phage_cluster_2925	bacteriophage tail protein gpT
+Phage_cluster_2915	portal protein
+Phage_cluster_2964	main capsid protein
+Phage_cluster_3008	putative structural protein
+Phage_cluster_3224	capsid protein
+Phage_cluster_3225	major spike protein
+Phage_cluster_2970	putative major tail protein
+Phage_cluster_3168	putative phage tail protein
+Phage_cluster_2911	Major capsid protein precursor
+Phage_cluster_3004	tail component
+Phage_cluster_3016	putative terminase large subunit
+Phage_cluster_3196	virion structural protein
+Phage_cluster_3179	tail sheath
+Phage_cluster_3003	major tail protein
+Phage_cluster_3187	putative tail protein
+Phage_cluster_3191	putative virion structural protein 21
+Phage_cluster_3198	putative virion structural protein
+Phage_cluster_3181	portal
+Phage_cluster_2966	sheat tail protein
+Phage_cluster_3009	orf11
+Phage_cluster_3192	putative virion structural protein
+Phage_cluster_2991	phage major tail protein
+Phage_cluster_3043	portal protein
+Phage_cluster_2965	putative capsid protein
+Phage_cluster_3154	putative major tail protein
+Phage_cluster_3086	phage capsid protein
+Phage_cluster_3226	minor spike protein
+Phage_cluster_2922	putative portal protein
+Phage_cluster_3507	major capsid protein
+Phage_cluster_3433	putative phage sheath tail protein
+Phage_cluster_3392	phage terminase, large subunit
+Phage_cluster_4206	putative minor capsid protein
+Phage_cluster_3931	phi13 family phage major tail protein
+Phage_cluster_3386	tail component protein
+Phage_cluster_3449	possible phage tail protein
+Phage_cluster_3874	virion structural protein
+Phage_cluster_3476	phage capsid protein
+Phage_cluster_3744	phage structural protein
+Phage_cluster_3789	virion structural protein
+Phage_cluster_3442	putative tail protein
+Phage_cluster_3364	putative portal protein
+Phage_cluster_3805	minor capsid protein
+Phage_cluster_3862	tail tube
+Phage_cluster_3363	putative portal protein
+Phage_cluster_3732	baseplate hub subunit
+Phage_cluster_3619	virion structural protein
+Phage_cluster_3654	baseplate tail tube cap
+Phage_cluster_3946	putative capsid protein
+Phage_cluster_3444	putative major capsid protein
+Phage_cluster_3617	tail component protein
+Phage_cluster_3376	putative tail protein
+Phage_cluster_3367	putative phage tail protein
+Phage_cluster_3393	minor capsid protein
+Phage_cluster_3947	minor capsid protein
+Phage_cluster_4254	putative virion structural protein
+Phage_cluster_3473	putative terminase large subunit
+Phage_cluster_3751	major capsid protein
+Phage_cluster_3686	major tail protein
+Phage_cluster_3870	putative minor coat protein
+Phage_cluster_4253	virion structural protein
+Phage_cluster_3876	virion structural protein
+Phage_cluster_3623	tail protein
+Phage_cluster_3743	phage structural protein
+Phage_cluster_3861	tail tube
+Phage_cluster_3878	putative encapsidation protein
+Phage_cluster_3375	putative tail protein
+Phage_cluster_3882	major capsid protein
+Phage_cluster_3749	phage structural protein
+Phage_cluster_3772	major capsid protein
+Phage_cluster_4891	phage tail protein
+Phage_cluster_4557	virion structural protein
+Phage_cluster_4846	putative major tail protein
+Phage_cluster_4779	virion structural protein
+Phage_cluster_4768	putative major capsid protein
+Phage_cluster_4423	putative tail protein
+Phage_cluster_4370	putative major tail protein
+Phage_cluster_4559	virion structural protein
+Phage_cluster_4712	virion structural protein
+Phage_cluster_4362	tail protein
+Phage_cluster_4396	major capsid protein
+Phage_cluster_4662	phage structural protein
+Phage_cluster_4781	virion structural protein
+Phage_cluster_4630	putative phage terminase B protein
+Phage_cluster_4290	putative terminase large subunit
+Phage_cluster_4525	terminase large subunit
+Phage_cluster_4696	putative major capsid protein
+Phage_cluster_4783	putative virion structural protein
+Phage_cluster_4444	putative minor capsid protein 2
+Phage_cluster_4358	minor capsid protein
+Phage_cluster_5050	virion structural protein
+Phage_cluster_4738	putative major capsid protein
+Phage_cluster_4276	MuV-like tail protein
+Phage_cluster_4778	virion structural protein
+Phage_cluster_4724	capsid protein
+Phage_cluster_4715	mature G III capsid protein
+Phage_cluster_4271	Tail tube protein
+Phage_cluster_4693	putative tail sheath
+Phage_cluster_4910	putative phage tail component
+Phage_cluster_4845	putative major capsid protein
+Phage_cluster_4907	major capsid protein
+Phage_cluster_4663	phage structural protein
+Phage_cluster_4919	virion structural protein
+Phage_cluster_4275	putative tail protein
+Phage_cluster_4301	putative tail protein
+Phage_cluster_4775	virion structural protein
+Phage_cluster_4291	terminase large subunit
+Phage_cluster_4555	putative tail component protein
+Phage_cluster_5282	putative virion structural protein
+Phage_cluster_4804	putative major tail protein
+Phage_cluster_4428	portal protein
+Phage_cluster_5789	gp11 baseplate wedge subunit and tail pin
+Phage_cluster_6274	coat protein
+Phage_cluster_6094	putative virion structural protein
+Phage_cluster_6658	virion structural protein
+Phage_cluster_5951	virion structural protein
+Phage_cluster_6404	putative minor capsid protein
+Phage_cluster_5425	large subunit terminase
+Phage_cluster_5738	virion structural protein
+Phage_cluster_5816	minor capsid protein
+Phage_cluster_6406	putative virion structural protein
+Phage_cluster_5442	major capsid protein
+Phage_cluster_6269	putative tail protein
+Phage_cluster_6073	major capsid protein
+Phage_cluster_5318	putative major capsid
+Phage_cluster_6163	putative major capsid protein
+Phage_cluster_5480	putative tail protein
+Phage_cluster_5791	neck whiskers protein
+Phage_cluster_5579	putative major capsid protein
+Phage_cluster_5521	putative tail component
+Phage_cluster_5426	portal protein
+Phage_cluster_5756	putative minor coat protein
+Phage_cluster_5545	virion structural protein
+Phage_cluster_5851	minor capsid protein
+Phage_cluster_5311	tail tube
+Phage_cluster_5309	portal protein
+Phage_cluster_6387	capsid protein
+Phage_cluster_6093	virion structural protein
+Phage_cluster_6167	putative trimeric spike protein
+Phage_cluster_6584	minor virion protein
+Phage_cluster_5847	virion structural protein
+Phage_cluster_6586	virion structural protein
+Phage_cluster_5315	phage portal protein, HK97 family
+Phage_cluster_6298	putative minor capsid protein 1
+Phage_cluster_6074	tail protein
+Phage_cluster_5298	portal protein
+Phage_cluster_6386	minor coat protein
+Phage_cluster_5509	major tail protein
+Phage_cluster_6787	tail baseplate
+Phage_cluster_5317	major capsid protein gp5
+Phage_cluster_5852	main tail protein
+Phage_cluster_6800	putative virion structural protein
+Phage_cluster_5576	putative terminase large subunit
+Phage_cluster_6067	capsid portal protein
+Phage_cluster_6166	putative pentameric base spike protein
+Phage_cluster_5853	putative tail component
+Phage_cluster_6069	putative phage tail component
+Phage_cluster_5742	putative tail protein
+Phage_cluster_5427	phage portal protein SPP1
+Phage_cluster_6593	virion structural protein
+Phage_cluster_6096	virion structural protein
+Phage_cluster_5740	virion structural protein
+Phage_cluster_5964	tail protein gpT-like protein
+Phage_cluster_8675	putative capsid protein VP18
+Phage_cluster_7970	capsid protein gpD
+Phage_cluster_8999	virion structural protein
+Phage_cluster_8013	virion structural protein
+Phage_cluster_6872	putative portal protein
+Phage_cluster_8522	major coat protein
+Phage_cluster_7981	portal
+Phage_cluster_7095	P22 coat protein
+Phage_cluster_9036	virion structural protein
+Phage_cluster_8746	putative terminase
+Phage_cluster_6973	capsid
+Phage_cluster_7995	tail sheath
+Phage_cluster_7265	portal protein
+Phage_cluster_8011	putative major capsid protein
+Phage_cluster_7952	capsid protein gpE
+Phage_cluster_9579	portal protein
+Phage_cluster_6978	terminase
+Phage_cluster_7854	putative portal protein
+Phage_cluster_7042	tail tubular protein A
+Phage_cluster_8658	capsid protein VP12
+Phage_cluster_6900	putative capsid protein
+Phage_cluster_8016	putative virion structural protein 18
+Phage_cluster_8663	capsid protein VP5
+Phage_cluster_8432	putative portal protein
+Phage_cluster_7769	putative capsid protein, major protein 2 (MP2)
+Phage_cluster_7410	major tail subunit
+Phage_cluster_9717	phage tail protein
+Phage_cluster_7770	putative phage capsid protein
+Phage_cluster_8867	major capsid protein
+Phage_cluster_9582	major capsid protein
+Phage_cluster_7739	putative major capsid protein
+Phage_cluster_7091	tail protein
+Phage_cluster_7456	baseplate tail tube cap
+Phage_cluster_6851	terminase subunit
+Phage_cluster_7744	putative major tail protein
+Phage_cluster_7317	tail protein
+Phage_cluster_6920	portal protein
+Phage_cluster_8818	major coat protein
+Phage_cluster_8842	gp20, phage Tail Protein X
+Phage_cluster_8992	gp19 tail tube protein III
+Phage_cluster_7856	major tail shaft protein
+Phage_cluster_9660	capsid protein
+Phage_cluster_8340	tail component protein
+Phage_cluster_7311	minor virion protein
+Phage_cluster_7046	phage coat protein
+Phage_cluster_8007	virion structural protein
+Phage_cluster_8704	tail protein
+Phage_cluster_7980	DNA encapsidation protein
+Phage_cluster_6884	major capsid protein
+Phage_cluster_8811	terminase
+Phage_cluster_6852	portal protein
+Phage_cluster_7620	fiber tail protein
+Phage_cluster_6877	virion structural protein
+Phage_cluster_8662	capsid protein VP2
+Phage_cluster_7044	putative major capsid protein
+Phage_cluster_6908	minor capsid protein
+Phage_cluster_8659	capsid protein VP7
+Phage_cluster_8433	major virion structural protein
+Phage_cluster_8652	capsid protein VP1
+Phage_cluster_7464	phage major capsid protein
+Phage_cluster_8565	putative tail tube protein
+Phage_cluster_8820	putative minor coat protein
+Phage_cluster_7619	major tail protein a
+Phage_cluster_8851	virion structural protein
+Phage_cluster_7043	capsid protein
+Phage_cluster_7984	putative minor capsid protein
+Phage_cluster_6923	terminase
+Phage_cluster_6873	putative capsid protein
+Phage_cluster_7316	gp14, phage major tail tube protein
+Phage_cluster_9000	virion structural protein
+Phage_cluster_6979	putative portal protein
+Phage_cluster_7855	major capsid protein
+Phage_cluster_6901	putative terminase
+Phage_cluster_8096	major capsid protein
+Phage_cluster_8998	virion structural protein
+Phage_cluster_6886	putative tail component
+Phage_cluster_7772	putative capsid protein, major protein 1 (MP1)
+Phage_cluster_7860	minor coat protein
+Phage_cluster_8005	putative virion structural protein 1
+Phage_cluster_8664	capsid protein VP10
+Phage_cluster_7328	putative tail component
+Phage_cluster_7785	major capsid protein
+Phage_cluster_8731	tail tube protein
+Phage_cluster_8546	portal protein
+Phage_cluster_7041	tail tube B
+Phage_cluster_9664	putative virion structural protein
+Phage_cluster_7737	putative portal protein
+Phage_cluster_7709	putative portal protein
+Phage_cluster_6982	coat protein
+Phage_cluster_8730	putative tail tube protein
+Phage_cluster_7994	virion structural protein
+Phage_cluster_7787	virion protein
+Phage_cluster_8516	minor capsid protein
+Phage_cluster_7326	putative major tail protein
+Phage_cluster_8008	virion structural protein
+Phage_cluster_8183	putative major tail protein
+Phage_cluster_7996	major virion structural protein
+Phage_cluster_7873	portal protein
+Phage_cluster_7789	virion protein
+Phage_cluster_7741	putative phage tail protein
+Phage_cluster_8660	capsid protein VP4
+Phage_cluster_6964	virion protein
+Phage_cluster_7047	tail protein T
+Phage_cluster_6876	tail protein
+Phage_cluster_8051	major capsid protein
+Phage_cluster_8752	virion structural protein
+Phage_cluster_7039	tail protein
+Phage_cluster_7330	tail protein/endopeptidase
+Phage_cluster_8006	phage virion structural protein
+gi_115334630_ref_YP_764476.1_	phage major capsid protein
+gi_117530262_ref_YP_851105.1_	putative phage tail sheath protein
+gi_118197623_ref_YP_874016.1_	portal protein
+gi_118197689_ref_YP_874082.1_	tail sheath protein
+gi_11863102_ref_NP_071819.1_	putative portal protein
+gi_11863113_ref_NP_071830.1_	putative tail protein
+gi_126010850_ref_YP_001039815.1_	putative phage terminase large subunit
+gi_126010870_ref_YP_001039840.1_	putative tail tube protein
+gi_126010913_ref_YP_001039839.1_	major tail sheath protein
+gi_126010914_ref_YP_001039831.1_	phage tail protein I
+gi_13449258_ref_NP_085472.1_	coat protein
+gi_148750840_ref_YP_001285883.1_	major capsid protein gp34
+gi_15320614_ref_NP_203458.1_	terminase
+gi_15320619_ref_NP_203463.1_	major virion structural protein
+gi_15320626_ref_NP_203470.1_	virion structural protein
+gi_15320627_ref_NP_203471.1_	virion structural protein
+gi_155042936_ref_YP_001425603.1_	phage capsid protein
+gi_156564064_ref_YP_001429807.1_	major virion structural protein
+gi_156564094_ref_YP_001429603.1_	virion structural protein
+gi_156564095_ref_YP_001429604.1_	virion structural protein
+gi_156564097_ref_YP_001429606.1_	virion structural protein
+gi_156564100_ref_YP_001429609.1_	candidate for curly fiber subunit based on high copy number in virion
+gi_156564105_ref_YP_001429615.1_	major virion structural protein
+gi_156564108_ref_YP_001429618.1_	virion structural protein
+gi_156564110_ref_YP_001429620.1_	major virion structural protein
+gi_156564111_ref_YP_001429621.1_	virion structural protein
+gi_156564112_ref_YP_001429622.1_	major virion structural protein
+gi_156564113_ref_YP_001429623.1_	virion structural protein
+gi_156564115_ref_YP_001429625.1_	virion structural protein
+gi_156564116_ref_YP_001429626.1_	virion structural protein
+gi_156564117_ref_YP_001429627.1_	virion structural protein
+gi_156564118_ref_YP_001429628.1_	tail sheath paralog
+gi_156564119_ref_YP_001429629.1_	virion structural protein
+gi_156564120_ref_YP_001429630.1_	tail sheath subunit
+gi_156564122_ref_YP_001429632.1_	virion structural protein
+gi_156564123_ref_YP_001429633.1_	virion structural protein
+gi_156564126_ref_YP_001429636.1_	virion structural protein
+gi_156564134_ref_YP_001429644.1_	virion structural protein
+gi_156564137_ref_YP_001429647.1_	virion structural protein
+gi_156564138_ref_YP_001429648.1_	virion structural protein
+gi_156564142_ref_YP_001429652.1_	virion structural protein
+gi_156564145_ref_YP_001429655.1_	virion structural protein
+gi_156564146_ref_YP_001429656.1_	virion structural protein
+gi_156564147_ref_YP_001429657.1_	virion structural protein
+gi_156564148_ref_YP_001429658.1_	virion structural protein
+gi_156564149_ref_YP_001429659.1_	virion structural protein
+gi_156564152_ref_YP_001429662.1_	virion structural protein
+gi_156564155_ref_YP_001429665.1_	virion structural protein
+gi_156564156_ref_YP_001429666.1_	virion structural protein
+gi_156564180_ref_YP_001429690.1_	virion structural protein
+gi_157168385_ref_YP_001456742.1_	gp12, major tail protein
+gi_157265380_ref_YP_001467939.1_	portal protein
+gi_157265381_ref_YP_001467940.1_	capsid scaffolding protein
+gi_157265497_ref_YP_001468055.1_	portal protein
+gi_157265498_ref_YP_001468056.1_	capsid scaffolding protein
+gi_157310937_ref_YP_001468933.1_	putative minor capsid protein
+gi_161617968_ref_YP_001595448.1_	major capsid protein
+gi_167832347_ref_YP_001686738.1_	putative terminase large subunit
+gi_167832357_ref_YP_001686748.1_	putative tail protein
+gi_167832365_ref_YP_001686756.1_	major tail sheath protein
+gi_167832366_ref_YP_001686757.1_	putative tail tube protein
+gi_168983486_ref_YP_001687526.1_	tail protein
+gi_169936021_ref_YP_001718720.1_	P2 gpT-like tail protein
+gi_17426221_ref_NP_510888.1_	minor coat protein
+gi_17426222_ref_NP_510889.1_	minor coat protein
+gi_17426223_ref_NP_510890.1_	major coat protein
+gi_17975746_ref_NP_536675.1_	A coat protein
+gi_17975747_ref_NP_536674.1_	B coat protein
+gi_182637486_ref_YP_001828657.1_	putative portal protein
+gi_189490207_ref_YP_001956773.1_	virion structural protein
+gi_189490208_ref_YP_001956774.1_	virion structural protein
+gi_189490301_ref_YP_001956869.1_	virion structural protein
+gi_189490302_ref_YP_001956870.1_	virion structural protein
+gi_189490304_ref_YP_001956872.1_	virion structural protein
+gi_189490309_ref_YP_001956877.1_	virion structural protein
+gi_189490310_ref_YP_001956878.1_	virion structural protein
+gi_189490314_ref_YP_001956882.1_	virion structural protein
+gi_189490315_ref_YP_001956883.1_	virion structural protein
+gi_189490349_ref_YP_001956917.1_	virion structural protein
+gi_189490354_ref_YP_001956922.1_	virion structural protein
+gi_189490355_ref_YP_001956923.1_	major capsid protein
+gi_189490366_ref_YP_001956934.1_	virion structural protein
+gi_189490367_ref_YP_001956935.1_	virion structural protein
+gi_189490370_ref_YP_001956938.1_	virion structural protein
+gi_189490381_ref_YP_001956949.1_	virion structural protein
+gi_189490382_ref_YP_001956950.1_	virion structural protein
+gi_189490383_ref_YP_001956951.1_	virion structural protein
+gi_189490393_ref_YP_001956961.1_	virion structural protein
+gi_189490400_ref_YP_001956969.1_	virion structural protein
+gi_189490401_ref_YP_001956970.1_	virion structural protein
+gi_189490533_ref_YP_001957103.1_	virion structural protein
+gi_189490588_ref_YP_001957158.1_	virion structural protein
+gi_189490589_ref_YP_001957159.1_	virion structural protein
+gi_189490604_ref_YP_001957174.1_	virion structural protein
+gi_19424729_ref_NP_598341.1_	minor capsid protein
+gi_197085648_ref_YP_002128468.1_	gp34 virion protein
+gi_197085649_ref_YP_002128469.1_	gp35 virion protein
+gi_19718354_ref_NP_604425.1_	Putative coat protein
+gi_198449293_ref_YP_002221447.1_	putative capsid protein
+gi_209901240_ref_YP_002290879.1_	putative portal protein
+gi_211956457_ref_YP_002302523.1_	capsid protein
+gi_211956469_ref_YP_002302535.1_	minor capsid protein
+gi_213163914_ref_YP_002321466.1_	putative tail protein a
+gi_213163918_ref_YP_002321470.1_	putative tail protein b
+gi_213163920_ref_YP_002321472.1_	putative tail protein c
+gi_219563205_ref_YP_002455797.1_	major tail protein
+gi_219563206_ref_YP_002455798.1_	tail protein
+gi_219563208_ref_YP_002455800.1_	tail protein
+gi_22091113_ref_NP_665927.1_	capsid protein gpB
+gi_22091122_ref_NP_665936.1_	capsid protein CP67
+gi_22091123_ref_NP_665937.1_	capsid protein gpA/H
+gi_22855194_ref_NP_690807.1_	P8 nucleocapsid shell protein
+gi_22855205_ref_NP_690816.1_	P7 procapsid protein
+gi_22855208_ref_NP_690819.1_	P1 procapsid protein
+gi_22855217_ref_NP_690826.1_	nucleocapsid protein P8
+gi_23455809_ref_NP_695160.1_	minor capsid protein
+gi_23455815_ref_NP_695154.1_	minor capsid protein
+gi_26114635_ref_NP_752644.1_	major coat protein
+gi_281199684_ref_YP_003335788.1_	tail tube protein
+gi_281306686_ref_YP_003345492.1_	predicted phage virion structural protein
+gi_28876188_ref_NP_795415.1_	putative tail protein
+gi_311993176_ref_YP_004010042.1_	head outer capsid protein
+gi_326424989_ref_YP_004286211.1_	virion structural protein
+gi_326425000_ref_YP_004286222.1_	virion structural protein
+gi_326784073_ref_YP_004324466.1_	virion structural protein
+gi_327198367_ref_YP_004306941.1_	putative tail protein
+gi_327198631_ref_YP_004327582.1_	putative minor coat protein
+gi_327198632_ref_YP_004327583.1_	putative major coat protein
+gi_327198633_ref_YP_004327584.1_	putative minor coat protein
+gi_327198634_ref_YP_004327585.1_	putative minor coat protein
+gi_343960384_ref_YP_004782210.1_	portal protein
+gi_343960449_ref_YP_004782275.1_	tail sheath protein
+gi_34419579_ref_NP_899592.1_	baseplate wedge subunit and tail pin
+gi_358356852_ref_YP_004934703.1_	terminase large subunit
+gi_371496206_ref_YP_004957354.1_	virion structural protein
+gi_371671370_ref_YP_004957908.1_	putative tail tube
+gi_371671371_ref_YP_004957909.1_	putative major tailsheath
+gi_371671372_ref_YP_004957910.1_	putative virion structural protein
+gi_371671379_ref_YP_004957917.1_	putative virion structural protein
+gi_371671423_ref_YP_004957961.1_	putative virion structural protein
+gi_371671425_ref_YP_004957963.1_	putative virion structural protein
+gi_371671432_ref_YP_004957970.1_	putative virion structural protein
+gi_371671458_ref_YP_004957996.1_	putative virion structural protein
+gi_371671460_ref_YP_004957998.1_	putative virion structural protein
+gi_371671469_ref_YP_004958007.1_	putative virion structural protein
+gi_371671470_ref_YP_004958008.1_	putative virion structural protein
+gi_371671471_ref_YP_004958009.1_	putative virion structural protein
+gi_371671475_ref_YP_004958013.1_	putative minor virion structural protein
+gi_371671476_ref_YP_004958014.1_	putative virion structural protein
+gi_371671477_ref_YP_004958015.1_	putative virion structural protein
+gi_371671478_ref_YP_004958016.1_	putative virion structural protein
+gi_371671482_ref_YP_004958020.1_	putative virion structural protein
+gi_371671487_ref_YP_004958025.1_	putative virion structural protein
+gi_371671493_ref_YP_004958031.1_	putative major capsid protein
+gi_371671501_ref_YP_004958039.1_	putative portal protein
+gi_371671510_ref_YP_004958048.1_	putative virion structural protein
+gi_371671511_ref_YP_004958049.1_	putative virion structural protein
+gi_371671631_ref_YP_004958169.1_	putative virion structural protein
+gi_371671634_ref_YP_004958172.1_	putative virion structural protein
+gi_371671643_ref_YP_004958181.1_	putative virion structural protein
+gi_371671644_ref_YP_004958182.1_	putative virion structural protein
+gi_371671649_ref_YP_004958187.1_	putative virion structural protein
+gi_371671650_ref_YP_004958188.1_	putative virion structural protein
+gi_372449752_ref_YP_005086978.1_	putative tail protein
+gi_372449804_ref_YP_005087028.1_	portal protein
+gi_372449810_ref_YP_005087034.1_	putative tail protein
+gi_372449827_ref_YP_005087050.1_	putative main capsid protein
+gi_372450010_ref_YP_005087231.1_	major capsid protein
+gi_374531793_ref_YP_005098350.1_	putative phage tail protein
+gi_38707688_ref_NP_944848.1_	Putative tail protein
+gi_388542681_ref_YP_006299886.1_	virion protein
+gi_388542682_ref_YP_006299887.1_	virion protein
+gi_392972787_ref_YP_006488746.1_	phage tail protein
+gi_392973272_ref_YP_006489229.1_	tail protein
+gi_392973301_ref_YP_006489258.1_	terminase
+gi_399528328_ref_YP_006560251.1_	phage major tail protein
+gi_399528425_ref_YP_006560346.1_	phage portal protein
+gi_399528485_ref_YP_006560405.1_	phage portal protein
+gi_40794974_ref_NP_955532.1_	major coat protein
+gi_410491727_ref_YP_006906949.1_	putative major capsid protein
+gi_41179312_ref_NP_958530.1_	putative terminase large subunit
+gi_414090368_ref_YP_006990481.1_	portal protein
+gi_414090378_ref_YP_006990491.1_	tail sheath
+gi_414090446_ref_YP_006990559.1_	major capsid protein
+gi_414090451_ref_YP_006990564.1_	tail sheath
+gi_418487152_ref_YP_007001500.1_	T4-like baseplate tail tube cap protein
+gi_418488938_ref_YP_007002851.1_	coat protein
+gi_418489063_ref_YP_007002947.1_	tail tube protein
+gi_418489066_ref_YP_007002950.1_	bacteriophage tail length determination protein
+gi_418489917_ref_YP_007003606.1_	putative phage tail protein
+gi_422934758_ref_YP_007004718.1_	major capsid protein
+gi_422935190_ref_YP_007005147.1_	putative tail sheat protein (T4 gp18-like)
+gi_422935270_ref_YP_007005227.1_	putative virion structural protein
+gi_422935271_ref_YP_007005228.1_	putative virion structural protein
+gi_422935275_ref_YP_007005232.1_	putative portal vertex protein of head (T4 gp20-like)
+gi_422936046_ref_YP_007005942.1_	putative tail tube protein 1
+gi_422936047_ref_YP_007005943.1_	putative tail tube protein 2
+gi_422936058_ref_YP_007005954.1_	putative portal protein
+gi_422936147_ref_YP_007005999.1_	virion structural protein
+gi_422936217_ref_YP_007006070.1_	virion structural protein
+gi_422936220_ref_YP_007006073.1_	virion structural protein
+gi_422936226_ref_YP_007006079.1_	virion structural protein
+gi_422936230_ref_YP_007006083.1_	virion structural protein
+gi_422936232_ref_YP_007006085.1_	virion structural protein
+gi_422936237_ref_YP_007006090.1_	virion structural protein
+gi_422936239_ref_YP_007006092.1_	virion structural protein
+gi_422936241_ref_YP_007006094.1_	virion structural protein
+gi_422936242_ref_YP_007006095.1_	virion structural protein
+gi_422936251_ref_YP_007006104.1_	virion structural protein
+gi_422936254_ref_YP_007006107.1_	virion structural protein
+gi_422936255_ref_YP_007006108.1_	virion structural protein
+gi_422936260_ref_YP_007006113.1_	virion structural protein
+gi_422936271_ref_YP_007006124.1_	virion structural protein
+gi_422936273_ref_YP_007006126.1_	virion structural protein
+gi_422936279_ref_YP_007006132.1_	virion structural protein
+gi_422936290_ref_YP_007006144.1_	virion structural protein
+gi_422936298_ref_YP_007006152.1_	virion structural protein
+gi_422936299_ref_YP_007006153.1_	virion structural protein
+gi_422936300_ref_YP_007006154.1_	virion structural protein
+gi_422936302_ref_YP_007006156.1_	virion structural protein
+gi_422937777_ref_YP_007007980.1_	tail protein
+gi_423262478_ref_YP_007011067.1_	putative major capsid protein
+gi_423262521_ref_YP_007011109.1_	putative major capsid protein
+gi_428782728_ref_YP_007112480.1_	portal protein
+gi_428782749_ref_YP_007112501.1_	putative tail protein
+gi_431809803_ref_YP_007236693.1_	minor capsid protein
+gi_431810373_ref_YP_007237255.1_	putative phage tail protein
+gi_431810578_ref_YP_007237658.1_	putative virion structural protein
+gi_431810630_ref_YP_007237710.1_	putative virion structural protein
+gi_431810631_ref_YP_007237711.1_	putative virion structural protein
+gi_431810659_ref_YP_007237739.1_	putative virion structural protein
+gi_431810711_ref_YP_007237791.1_	putative virion structural protein
+gi_431810743_ref_YP_007237823.1_	putative virion structural protein
+gi_431810744_ref_YP_007237824.1_	putative phage tail sheath protein
+gi_431810804_ref_YP_007237884.1_	phage virion structural protein
+gi_431810805_ref_YP_007237885.1_	phage virion structural protein
+gi_431810816_ref_YP_007237896.1_	phage virion structural protein
+gi_431810855_ref_YP_007237933.1_	phage portal protein
+gi_431810870_ref_YP_007237948.1_	putative phage tail protein
+gi_435844452_ref_YP_007006568.1_	portal protein
+gi_435844454_ref_YP_007006570.1_	major capsid protein
+gi_460042281_ref_YP_007517722.1_	virion structural protein
+gi_461474972_ref_YP_007518397.1_	gene transfer aget (GTA) orfg9-like phage major tail protein
+gi_461474981_ref_YP_007518406.1_	phage tail component protein
+gi_46402098_ref_YP_006592.1_	major tail shaft subunit
+gi_47131174_ref_YP_015540.1_	virus coat protein VP3
+gi_47131175_ref_YP_015541.1_	virus coat protein VP2
+gi_478755959_ref_YP_007761600.1_	capsid protein VP1
+gi_478755971_ref_YP_007761612.1_	capsid protein VP13
+gi_478755975_ref_YP_007761616.1_	capsid protein VP9
+gi_478755976_ref_YP_007761617.1_	capsid protein VP3
+gi_478755977_ref_YP_007761618.1_	capsid protein VP6
+gi_481019156_ref_YP_007877511.1_	tail tube protein
+gi_48696646_ref_YP_024425.1_	outer capsid protein
+gi_48696686_ref_YP_024980.1_	major tail subunit
+gi_48697025_ref_YP_025022.1_	coat protein
+gi_48697270_ref_YP_025037.1_	putative tail component
+gi_508178064_ref_YP_008051125.1_	virion structural protein
+gi_508178435_ref_YP_008051231.1_	major capsid protein
+gi_509139824_ref_YP_008058711.1_	major capsid protein
+gi_509140042_ref_YP_008058926.1_	putative phage portal protein
+gi_509140645_ref_YP_008059528.1_	major capsid protein
+gi_509140669_ref_YP_008059552.1_	tail tube
+gi_511534118_ref_YP_008083051.1_	terminase large subunit
+gi_511534146_ref_YP_008083079.1_	virion component
+gi_514051363_ref_YP_008125791.1_	putative virion structural protein 4
+gi_514051364_ref_YP_008125792.1_	putative virion structural protein 5
+gi_514051372_ref_YP_008125800.1_	putative virion structural protein 6
+gi_514051374_ref_YP_008125802.1_	putative virion structural protein 7
+gi_514051387_ref_YP_008125815.1_	putative virion structural protein 8
+gi_514051390_ref_YP_008125818.1_	putative virion structural protein 10
+gi_514051448_ref_YP_008125876.1_	putative virion structural protein 11
+gi_514051470_ref_YP_008125898.1_	putative virion structural protein 15
+gi_514051531_ref_YP_008125959.1_	putative virion structural protein 19
+gi_514051532_ref_YP_008125960.1_	putative tail sheath protein
+gi_514231472_ref_YP_008130148.1_	terminase large subunit
+gi_514361035_ref_YP_008130276.1_	minor coat protein
+gi_514361036_ref_YP_008130277.1_	minor coat protein
+gi_514361037_ref_YP_008130278.1_	major coat protein
+gi_525972092_ref_YP_008239665.1_	major capsid protein
+gi_525972100_ref_YP_008239673.1_	tail component
+gi_525972104_ref_YP_008239677.1_	portal protein
+gi_525972108_ref_YP_008239681.1_	tail tubular protein
+gi_526177988_ref_YP_008241814.1_	phage portal protein
+gi_526178156_ref_YP_008241980.1_	terminase large subunit
+gi_526178157_ref_YP_008241981.1_	phage portal protein
+gi_526178172_ref_YP_008241996.1_	phage major capsid protein
+gi_526178179_ref_YP_008242003.1_	phage tail protein
+gi_526178183_ref_YP_008242007.1_	phage tail protein
+gi_526246112_ref_YP_008320490.1_	phage tail protein
+gi_530787685_ref_YP_008433304.1_	putative capsid protein
+gi_530787697_ref_YP_008433316.1_	putative minor capsid protein
+gi_53793591_ref_YP_112491.1_	terminase large subunit
+gi_53793592_ref_YP_112492.1_	phage portal protein
+gi_53793597_ref_YP_112497.1_	major capsid protein precursor
+gi_557745633_ref_YP_008798243.1_	minor capsid protein
+gi_563399753_ref_YP_008859642.1_	minor virion protein
+gi_56692607_ref_YP_164075.1_	capsid protein
+gi_56692924_ref_YP_164308.1_	virion structural protein
+gi_56693017_ref_YP_164361.1_	virus coat protein VP2
+gi_568191680_ref_YP_008771465.1_	minor capsid protein
+gi_571797882_ref_YP_008772048.1_	major capsid protein
+gi_58532893_ref_YP_195116.1_	virion structural protein
+gi_58532900_ref_YP_195123.1_	virion structural protein
+gi_78000031_ref_YP_358770.1_	putative tail component
+gi_80159846_ref_YP_398590.1_	phage virion protein
+gi_80159850_ref_YP_398594.1_	phage virion protein
+gi_80159851_ref_YP_398595.1_	phage virion protein
+gi_80159852_ref_YP_398596.1_	phage virion protein
+gi_90592608_ref_YP_529868.1_	putative phage terminase large subunit A
+gi_93007440_ref_YP_579204.1_	terminase large subunit
+gi_9625370_ref_NP_039603.1_	major coat protein
+gi_9625386_ref_NP_039618.1_	minor coat protein
+gi_9625387_ref_NP_039619.1_	minor coat protein
+gi_9626236_ref_NP_040573.1_	minor coat protein
+gi_9626237_ref_NP_040574.1_	minor coat protein
+gi_9626313_ref_NP_040648.1_	coat protein
+gi_9626318_ref_NP_040652.1_	major coat protein
+gi_9626319_ref_NP_040653.1_	50-kDa virion protein
+gi_9626320_ref_NP_040654.1_	putative minor coat protein
+gi_9626355_ref_NP_040686.1_	spike
+gi_9626357_ref_NP_040688.1_	minor capsid protein
+gi_9626361_ref_NP_040692.1_	major capsid protein
+gi_9626366_ref_NP_040697.1_	minor capsid protein
+gi_9626427_ref_NP_040754.1_	coat protein
+gi_9627906_ref_NP_042305.1_	coat protein
+gi_9630535_ref_NP_046965.1_	portal protein
+gi_9630546_ref_NP_046976.1_	tail protein
+gi_9630749_ref_NP_047353.1_	minor coat protein
+gi_9630750_ref_NP_047354.1_	minor coat protein
+gi_9630751_ref_NP_047355.1_	major coat protein
+gi_9630765_ref_NP_047367.1_	minor coat protein
+gi_9630768_ref_NP_047370.1_	minor coat protein
+gi_9632869_ref_NP_049903.1_	major capsid protein P2
+gi_9632874_ref_NP_049908.1_	spike protein P1
+gi_9633048_ref_NP_050156.1_	major tail protein
+gi_9910039_ref_NP_064638.1_	DNA encapsidation protein
