@@ -141,7 +141,7 @@ m = 1
 n = 1
 line = virsorter_global.readline()
 while line != "":
-    if line[0] == "#":
+    if line[0] == "#" or line.strip().split(',')[0] == "Contig_id":
         line = virsorter_global.readline()
     else:
         line = line.strip().split(',')
